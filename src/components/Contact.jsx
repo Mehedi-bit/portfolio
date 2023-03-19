@@ -31,18 +31,25 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    // template_908h5mm
+    // service_2br9b5l
+    // fwid_muqjxR4HZP7o
+
+    // service_hknwidb
+    // template_pdzcsbl
+    // xPr-X16n-wSdR8eR4
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_hknwidb",
+        "template_pdzcsbl",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Mehedi Hasan",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "mh.hasanemon287@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "xPr-X16n-wSdR8eR4"
       )
       .then(
         () => {
