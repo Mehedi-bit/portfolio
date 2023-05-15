@@ -24,6 +24,10 @@ import {
     tripguide,
     threejs,
   } from "../assets";
+
+  import pizzaqueen from '../assets/pizzaqueen.png';
+  import dhumketux from '../assets/dhumketux.png';
+  import kungfuhostel from '../assets/kungfuhostel.png';
   
   export const navLinks = [
     {
@@ -46,16 +50,12 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
     },
   ];
   
@@ -107,10 +107,6 @@ import {
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -172,7 +168,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Mehedi proved me wrong.",
       name: "Zyair Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -180,7 +176,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Mehedi does.",
       name: "Wylder Amiri",
       designation: "COO",
       company: "DEF Corp",
@@ -188,7 +184,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After He optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Aiden Koen",
       designation: "CTO",
       company: "456 Enterprises",
@@ -198,7 +194,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Pizza Queen",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -207,20 +203,32 @@ import {
           color: "blue-text-gradient",
         },
         {
+          name: "redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "next",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "node",
+          color: "blue-text-gradient",
+        },
+        {
           name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "paypal",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-      live_link: "https://facebook.com/"
+      image: pizzaqueen,
+      source_code_link: "https://github.com/Mehedi-bit/Pizza-queen",
+      live_link: "https://pizzaqueen.vercel.app/"
     },
     {
-      name: "Job IT",
+      name: "DhumketuX",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -229,39 +237,51 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "node",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "express",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "pm2",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "jest",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-      live_link: "https://facebook.com/"
+      image: dhumketux,
+      source_code_link: "https://github.com/Mehedi-bit/dhumketu-x",
+      live_link: "https://dhumketux.onrender.com/"
     },
     {
-      name: "Trip Guide",
+      name: "Kungfu Hostel",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "html-canvas",
           color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
           color: "pink-text-gradient",
         },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-      live_link: "https://facebook.com/"
+      image: kungfuhostel,
+      source_code_link: "https://github.com/Mehedi-bit/kungfu-hostel",
+      live_link: "https://kunfu-hostel.netlify.app/"
     },
   ];
   
