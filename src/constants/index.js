@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    next,
+    nextjs,
   } from "../assets";
 
   import pizzaqueen from '../assets/pizzaqueen.png';
@@ -83,6 +85,10 @@ import {
     {
       name: "Redux Toolkit",
       icon: redux,
+    },
+    {
+      name: "Next JS",
+      icon: nextjs,
     },
     {
       name: "Tailwind CSS",
