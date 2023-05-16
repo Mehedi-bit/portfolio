@@ -27,7 +27,9 @@ import {
     nextjs,
     python,
     mysql,
-    jest
+    jest,
+    html5,
+    css3
   } from "../assets";
 
   import pizzaqueen from '../assets/pizzaqueen.png';
@@ -65,14 +67,6 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
     {
       name: "JavaScript",
       icon: javascript,
@@ -113,10 +107,10 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
     {
       name: "python",
       icon: python,

@@ -8,10 +8,12 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import css3 from "./tech/css.svg";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
+import html5 from "./tech/html.svg";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -69,4 +71,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  css3,
+  html5,
 };
