@@ -22,6 +22,9 @@ import nextjs from "./tech/nextjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import mysql from "./tech/mysql.png";
+import jest from "./tech/jest.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -56,6 +59,9 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  mysql,
+  jest,
   meta,
   shopify,
   starbucks,

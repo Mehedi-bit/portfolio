@@ -25,6 +25,9 @@ import {
     threejs,
     next,
     nextjs,
+    python,
+    mysql,
+    jest
   } from "../assets";
 
   import pizzaqueen from '../assets/pizzaqueen.png';
@@ -113,6 +116,18 @@ import {
     {
       name: "figma",
       icon: figma,
+    },
+    {
+      name: "python",
+      icon: python,
+    },
+    {
+      name: "mysql",
+      icon: mysql,
+    },
+    {
+      name: "jest",
+      icon: jest,
     },
   ];
   
