@@ -211,7 +211,7 @@ import {
     {
       name: "Pizza Queen",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based food ordering platform where customers can easily customize and order pizzas. Payment options include PayPal or cash on delivery, and customers can conveniently watch their order status.",
       tags: [
         {
           name: "react",
@@ -245,7 +245,7 @@ import {
     {
       name: "DhumketuX",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that empowers space agencies to efficiently schedule rocket launches while also providing the capability to abort them in response to engineering or environmental concerns.",
       tags: [
         {
           name: "react",
@@ -279,7 +279,7 @@ import {
     {
       name: "Kungfu Hostel",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An interactive Chinese fighting game, which allows players to engage in a fun and challenging gaming experience. Engaging visuals that enhance the overall gameplay and User-friendly controls that are intuitive and easy to learn.",
       tags: [
         {
           name: "html-canvas",
